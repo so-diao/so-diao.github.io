@@ -8,16 +8,19 @@
 </head>
 <body>
 
-    <textarea></textarea>
+    <textarea>
+        <p> <span class="mark-fapkw"><!-- . -->&nbsp;<span class="mark-fapkw" icon-style="rounded" style-color="#E03E2D"><!-- . --><span class="mark-fapk fas fa-cloud-sun" style="font-size: 48px; color: rgb(241, 196, 15); display: inline-block; text-align: center; line-height: 1.4em; height: 1.4em; width: 1.4em; border-radius: 50%; background-color: rgb(224, 62, 45);" contenteditable="false"></span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <span class="mark-fapkw"><!-- . --><span class="mark-fapk fas fa-fire-alt" style="font-size: 24px; color: rgb(224, 62, 45); display: inline-block; transform: rotate(270deg);" contenteditable="false"></span></span>&nbsp;</span> <span class="mark-fapk fas fa-fighter-jet" style="font-size: 36px; color: rgb(53, 152, 219);" contenteditable="false"></span> <span class="mark-fapkw"><!-- . --></span></span></p><p><span class="mark-fapkw" icon-style="boxed" style-color="#95A5A6"><span class="mark-fapkw"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <span class="mark-fapkw"><!-- . --></span><span class="mark-fapkw"><span class="mark-fapk fas fa-dragon" style="font-size: 24px; color: rgb(0, 0, 0);" contenteditable="false"></span></span><span class="mark-fapk fas fa-car-crash" contenteditable="false"></span>﻿&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <span class="mark-fapkw"><!-- . --></span> <span class="mark-fapk fas fa-biking" contenteditable="false"></span></span> </p>
+    </textarea>
     <script>
         window.tinymce.init({
             selector: 'textarea',
             plugins: 'fontawesomepicker',
             toolbar: 'fontawesomepicker forecolor backcolor fontsizeselect formatselect',
             fontsize_formats: '12px 14px 16px 18px 24px 36px',
+            height: 300,
             external_plugins: {
-                //  插件链接 或者 将fontawesomepicker放在tinymce的plugins目录下自动注册
                 fontawesomepicker: 'https://www.unpkg.com/tinymce-fontawesomepicker/fontawesomepicker/plugin.min.js'
+                // fontawesomepicker: '/tinymce-fontawesomepicker/fontawesomepicker/plugin.js'
             },
             fontawesomeUrl: 'https://www.unpkg.com/@fortawesome/fontawesome-free@5.14.0/css/all.min.css'
         })
